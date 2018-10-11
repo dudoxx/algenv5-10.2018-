@@ -33,8 +33,6 @@ int main(int argc, char* argv[])
 
     string line;    //buffer for first line in file
     ifstream rawFile;   //input file
-    rawFile.open("1.txt");
-
     string file ="[v5]convert-";
     rawFile.open(argv[1]);
     if(rawFile.fail())
